@@ -1,25 +1,25 @@
 class Iota < Formula
   desc "An agent CLI for the terminal"
   homepage "https://iota.sh"
-  version "0.4.0"
+  version "0.5.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/iotash/iota/releases/download/v0.4.0/iota-aarch64-apple-darwin.tar.xz"
-      sha256 "9cd3a01ac3381f2f869efdbaee97d8f2408648b17c624608de913dd5aa732007"
+      url "https://github.com/iotash/iota/releases/download/v0.5.0/iota-aarch64-apple-darwin.tar.xz"
+      sha256 "a86d5fdd4373b7da95d8ef612647262a911d05c79a7f31bb1d39f6a2199728c4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/iotash/iota/releases/download/v0.4.0/iota-x86_64-apple-darwin.tar.xz"
-      sha256 "52a4ed042e6eca2eb1e930766851cd7e40d774d8713e6d3ea6db2d574e5edcc6"
+      url "https://github.com/iotash/iota/releases/download/v0.5.0/iota-x86_64-apple-darwin.tar.xz"
+      sha256 "9bb63cd7e2ae9934d6cfac3b1817bb16ee8f9443ed953dd9bf1b36c976c43578"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/iotash/iota/releases/download/v0.4.0/iota-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "91c7c564222b82b4c4f259396cde8e4906d7e3cfc51c2436888742db5db89b00"
+      url "https://github.com/iotash/iota/releases/download/v0.5.0/iota-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "719bc779aab9ea60ad8814b38f72c878e85df479e45c3222a8f7cd0b1c52d8c2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/iotash/iota/releases/download/v0.4.0/iota-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "eec2ffb2ff696675b421d03596856693bcf504009d342b68e145ffcfafc04777"
+      url "https://github.com/iotash/iota/releases/download/v0.5.0/iota-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "499adbcff0e5aacef6fdbbb8c4a0b4deb9df034a46ac63fc7e0dd71ac46fba9a"
     end
   end
   license "MIT"
